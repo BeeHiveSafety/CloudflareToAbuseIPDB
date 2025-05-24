@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    if: github.repository == 'BeeHiveCyberSecurity/CloudflareToAbuseIPDB'
+    if: github.repository == 'BeeHiveSafety/CloudflareToAbuseIPDB'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
